@@ -30,7 +30,7 @@
 ![Duplicate ID Error](screenshots/duplicate_id_error.PNG)
 
 ### ۴. باز شدن لیست داروهای بیمار
-![Patient Drugs List](screenshots/patient_drugs_list.PNG)
+![Patient Drugs List](screenshots/patient_drug_list.PNG)
 
 ### ۵. بررسی تداخل دارویی
 ![Interaction Error](screenshots/interaction_error.PNG)
