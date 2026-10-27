@@ -1,0 +1,46 @@
+# Drug Interaction System 
+
+
+این سیستم یک نرم‌افزار دسکتاپ برای مدیریت بیماران و بررسی تداخلات دارویی است که با رعایت کامل اصول **شی‌گرایی (OOP)** و معماری **MVC (Model-View-Controller)** طراحی و پیاده‌سازی شده است.
+
+##  امکانات کلیدی
+- **مدیریت بیماران:** ثبت بیمار جدید با اعتبارسنجی هوشمند (کد ملی و نام) و جلوگیری از ثبت کد ملی تکراری.
+- **مدیریت داروها:** افزودن، حذف و ویرایش داروهای هر بیمار.
+- **بررسی تداخل دارویی:** تشخیص خودکار تداخلات خطرناک (Major و Moderate) بین داروی جدید و داروهای فعلی بیمار.
+- **گزارش‌گیری:** مشاهده جدول کامل تمام بیماران و داروهای مصرفی آن‌ها.
+
+##  ساختار پروژه (MVC)
+- **`model/`**: شامل کلاس‌های اصلی داده (`Patient` و `Drug`).
+- **`data_access/`**: مدیریت دیتابیس در حافظه به صورت Singleton (`Database`).
+- **`business_logic/`**: منطق بررسی تداخل دارویی (`InteractionService`).
+- **`controller/`**: ارتباط بین رابط کاربری و منطق برنامه (`PatientController`).
+- **`view/`**: رابط‌های گرافیکی با `Tkinter` (صفحات ورود، داشبورد و گزارش).
+- **`tools/`**: ابزارهای اعتبارسنجی ورودی‌ها (`Validator`).
+
+## تصاویر برنامه
+
+### ۱. ثبت بیمار جدید
+![Add Patient](screenshots/add_patient.png)
+
+### ۲. پیدا کردن بیمار قبلی
+![Patient Found](screenshots/patient_found.png)
+
+### ۳. جلوگیری از ثبت کد ملی تکراری
+![Duplicate ID Error](screenshots/duplicate_id_error.png)
+
+### ۴. باز شدن لیست داروهای بیمار
+![Patient Drugs List](screenshots/patient_drugs_list.png)
+
+### ۵. بررسی تداخل دارویی
+![Interaction Error](screenshots/interaction_error.png)
+
+### ۶. حذف و ویرایش دارو
+![Delete Drug](screenshots/delete_drug.png)
+![Edit Drug](screenshots/edit_drug.png)
+
+### ۷. گزارش کل بیماران
+![All Patients List](screenshots/all_patients_list.png)
+
+### ۸. باز شدن پنجره برای بیمار جدید
+![New Patient Dashboard](screenshots/new_patient_dashboard.png)
+
