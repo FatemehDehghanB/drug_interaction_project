@@ -40,8 +40,8 @@
 ![Edit Drug](screenshots/edit_drug.PNG)
 
 ### ۷. گزارش کل بیماران
-![All Patients List](screenshots/all_patients_list.png)
+![All Patients List](screenshots/all_patients_list.PNG)
 
 ### ۸. باز شدن پنجره برای بیمار جدید
-![New Patient Dashboard](screenshots/new_patient_dashboard.png)
+![New Patient Dashboard](screenshots/new_patient_dashboard.PNG)
 
