@@ -21,23 +21,23 @@
 ## تصاویر برنامه
 
 ### ۱. ثبت بیمار جدید
-![Add Patient](screenshots/add_patient.png)
+![Add Patient](screenshots/add_patient.PNG)
 
 ### ۲. پیدا کردن بیمار قبلی
-![Patient Found](screenshots/patient_found.png)
+![Patient Found](screenshots/patient_found.PNG)
 
 ### ۳. جلوگیری از ثبت کد ملی تکراری
-![Duplicate ID Error](screenshots/duplicate_id_error.png)
+![Duplicate ID Error](screenshots/duplicate_id_error.PNG)
 
 ### ۴. باز شدن لیست داروهای بیمار
-![Patient Drugs List](screenshots/patient_drugs_list.png)
+![Patient Drugs List](screenshots/patient_drugs_list.PNG)
 
 ### ۵. بررسی تداخل دارویی
-![Interaction Error](screenshots/interaction_error.png)
+![Interaction Error](screenshots/interaction_error.PNG)
 
 ### ۶. حذف و ویرایش دارو
-![Delete Drug](screenshots/delete_drug.png)
-![Edit Drug](screenshots/edit_drug.png)
+![Delete Drug](screenshots/delete_drug.PNG)
+![Edit Drug](screenshots/edit_drug.PNG)
 
 ### ۷. گزارش کل بیماران
 ![All Patients List](screenshots/all_patients_list.png)
